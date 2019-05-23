@@ -6,11 +6,9 @@
 h1,
 h2,
 h3 {
-    font-family: raleway, sans-serif;
-
-    font-weight: 400;
-
-    font-style: normal;
+    font-family: old-standard, serif;
+font-style: normal;
+font-weight: 400;
 	color:black;
 	
 
@@ -33,7 +31,9 @@ body {
     background-color: #fcf7f7;
 }
 .logo{
-    height:50px;
+    height:80px;
+	display: flex;
+	align-items: flex-start;
 }
 .logo_typeface{
     max-height:60px;
@@ -45,7 +45,7 @@ body {
 }
 .logo_container{
     display:flex;
-    align-items: center;
+	align-items: flex-start;
 }
 #menu-toggle {
     display: none;
@@ -54,8 +54,9 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
     padding: 10px;
+	font-size: 40px;
 }
 .laptop-menu{
     display: none;
@@ -81,9 +82,7 @@ ul {
 .menuentry-black a{
     color: black;
 }
-.menuentry-white a{
-    color: white;
-}
+
 .menuentry a{
     font-family: raleway, sans-serif;
     font-size: 2em;
@@ -99,39 +98,14 @@ main {
     display:none;
 }
 
-.accordion {
-    background-color: #fafafa;
-    color: #000;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    border-bottom: solid 1px #000;
-    text-align: left;
-    position:relative;
-    outline: none;
-    font-size: 2em;
-    transition: 0.4s;
-   font-family: raleway, sans-serif;
-}
-
 
 
 .ikon-andet{
     color:black;
 }
-.accordion-container{
-    display:flex;
-    flex-direction: column-reverse;
+   margin: 20px 0;
 }
-.accordion-container h2{
-    margin: 20px 0;
-}
-.bullet-list{
-    list-style-type: circle;
-    margin-left:20px;
-    margin-bottom: 30px
-}
+
 .panel {
     padding: 0 18px;
     background-color: white;
@@ -151,6 +125,10 @@ main {
 	
 font-style: normal;
 }
+.inspiration-tekst{
+	color: Black;
+	
+}
 .tekstindhold{
    margin: 5px 5px 20px 5px;
 }
@@ -163,9 +141,10 @@ font-style: normal;
 }
 /* footer content */
 footer{
-    background-color: #fcfcf7;
+    background-color: #424142;
     display:flex;
-    color:darkslategray;
+	flex-flow: row;
+    color: #fcf7f7;
     justify-content: space-between;
 }
 footer div{
@@ -200,9 +179,7 @@ font-family: raleway, sans-serif;
 .kontakt-info{
     flex:85px 0 0;
 }
-.socialmedia_wrapper{
-    flex: 20px 0 0;
-}
+
 #facebook{
     background-color: #2467B6;
 }
@@ -227,7 +204,7 @@ font-family: raleway, sans-serif;
     }
     #menu-toggle{
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
     }
     .menuentry{
         display: inline;
@@ -254,14 +231,15 @@ font-family: raleway, sans-serif;
         display: inline;
     }
     .laptop_logo{
-        height: 75px;
+        height: 100px;
         margin:30px 0 0 30px;
+			align-items: flex-start;
+	
     }
-    .laptop_logo_typeface{
-        height: 60px;
-        margin-left: 10px;
-        margin-top: 30px
-    }
+	.logo-container{
+		 display:flex;
+	align-items: space-between;
+	}
     
     /* Main */
     .forsideindhold{
