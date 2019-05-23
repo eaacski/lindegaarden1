@@ -1,310 +1,370 @@
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 h1,
 h2,
 h3 {
-    font-family: old-standard, serif;
-font-style: normal;
-font-weight: 400;
-	color:black;
-	
+	font-family: old-standard, serif;
+	font-style: normal;
+	font-weight: 400;
+	color: black;
+
 
 }
-.bigphoto{
-    background-image: url(../images/lind-min-1200pxS-8710-klip-.jpg);
-    width: 100%;
-    
-    background-position: center;
-    background-size: cover;
-    
-}
 
-.fa-bars{
-    color: darkslategrey;
+.bigphoto {
+	background-image: url(../images/lind-min-1200pxS-8710-klip-.jpg);
+	width: 100%;
+
+	background-position: center;
+	background-size: cover;
 
 }
+
+.fa-bars {
+	color: darkslategrey;
+
+}
+
 body {
-    font-family: raleway, sans-serif;
-    background-color: #fcf7f7;
+	font-family: raleway, sans-serif;
+	background-color: #fcf7f7;
 }
-.logo{
-    height:80px;
+
+.logo {
+	height: 80px;
 	display: flex;
 	align-items: flex-start;
 }
-.logo_typeface{
-    max-height:60px;
-    width:60%;
-    margin-left:20px;
+
+.logo_typeface {
+	max-height: 60px;
+	width: 60%;
+	margin-left: 20px;
 }
-.burger{
-    height:40px;
+
+.burger {
+	height: 40px;
 }
-.logo_container{
-    display:flex;
+
+.logo_container {
+	display: flex;
 	align-items: flex-start;
 }
+
 #menu-toggle {
-    display: none;
+	display: none;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: right;
-    padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: right;
+	padding: 10px;
 	font-size: 40px;
 }
-.laptop-menu{
-    display: none;
+
+.laptop-menu {
+	display: none;
 }
 
 a {
-    text-decoration: none;
-    font-family: raleway, sans-serif;
-    color:black;
+	text-decoration: none;
+	font-family: raleway, sans-serif;
+	color: black;
 }
 
 ul {
-    list-style-type: none;
+	list-style-type: none;
 }
 
 .menuentry {
-    border-bottom: solid 1px darkgrey;
-    text-align: center;
-    padding-top: 5px
-    color: white;
-    
-}
-.menuentry-black a{
-    color: black;
+	border-bottom: solid 1px darkgrey;
+	text-align: center;
+	padding-top: 5px color: white;
+
 }
 
-.menuentry a{
-    font-family: raleway, sans-serif;
-    font-size: 2em;
+.menuentry-black a {
+	color: black;
 }
+
+.menuentry a {
+	font-family: raleway, sans-serif;
+	font-size: 2em;
+}
+
 /* Main content */
 main {
- margin: 0 5px 0 5px;
+	margin: 0 5px 0 5px;
 }
-.behandlinger{
-    width: 100%;
+
+.behandlinger {
+	width: 100%;
 }
-#expanded-info{
-    display:none;
+
+#expanded-info {
+	display: none;
 }
 
 
 
-.ikon-andet{
-    color:black;
+.ikon-andet {
+	color: black;
 }
-   margin: 20px 0;
+
+margin: 20px 0;
 }
 
 .panel {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
 }
-.right-price{
-    position:absolute;
-    right:20px;
-    top:14px;    
+
+.right-price {
+	position: absolute;
+	right: 20px;
+	top: 14px;
 }
-.anmeldelse-tekst{
-        font-style: italic;    
-    }
-.om-birthe-tekst{
-	
-font-style: normal;
+
+.anmeldelse-tekst {
+	font-style: italic;
 }
-.inspiration-tekst{
+
+.om-lindegaaren {
+
+	font-style: normal;
+}
+
+.inspiration-tekst {
 	color: Black;
-	
+
 }
-.tekstindhold{
-   margin: 5px 5px 20px 5px;
+
+.om-birthe-tekst {
+	font-style: normal;
+	color: black;
+
 }
-.profile{
-    background-color: #DDD;
-    padding: 10px;
+
+.tekstindhold {
+	margin: 5px 5px 20px 5px;
 }
-.profile img{
-    width:100%;
+
+.profile {
+	background-color: #DDD;
+	padding: 10px;
 }
+
+.profile img {
+	width: 100%;
+}
+
 /* footer content */
-footer{
-    background-color: #424142;
-    display:flex;
+footer {
+	background-color: #424142;
+	display: flex;
 	flex-flow: row;
-    color: #fcf7f7;
-    justify-content: space-between;
-}
-footer div{
-    margin:10px;
-}
-.socialmedia_container li{
-    display:inline;
-    float:right;
+	color: #fcf7f7;
+	justify-content: space-between;
 }
 
-.socialmedia{
-    width:20px;
-    margin: 0 auto;
-    color:white;
-    padding: 10px;
-    border-radius: 5px;
-}
-.forfatter{
-    text-align: right;
-}
-p{
-font-family: raleway, sans-serif;
-}
-.om-tekst img{
-    width: 100%;
-    margin-top: 20px
-}
-.om-tekst img:last-child{
-    margin-bottom:15px;
+footer div {
+	margin: 10px;
 }
 
-.kontakt-info{
-    flex:85px 0 0;
+.socialmedia_container li {
+	display: inline;
+	float: right;
 }
 
-#facebook{
-    background-color: #2467B6;
-}
-#instagram{
-    background-color: #FC2D78;
-}
-#messenger{
-    background-color: #0085FF;
-}
-#regnr{
-    text-align: center;
-}
-.phone_link{
-    color:white;
-    border-bottom: solid 1px;
+.socialmedia {
+	width: 20px;
+	margin: 0 auto;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
 }
 
-@media only screen and (min-width: 1200px){
-    /* Header */
-    .bigphoto{
-        background-image: url(../images/lind-min-1200pxS-8710-klip-.jpg);
-    }
-    #menu-toggle{
-        display: flex;
-        justify-content: flex-end;
-    }
-    .menuentry{
-        display: inline;
-        border: none;
-    }
-    .menu{
-        margin-top: 50px;
-    }
-    .menuentry a {
-        margin: 30px;
-        padding-top: 30px;
-        font-size: 3.5em;
-    }
-    .last-menuentry{
-        margin-right: 30px;
-    }
-    .burger-container{
-        display: none;
-    }
-    .navbar{
-        display: none;
-    }
-    .laptop-menu{
-        display: inline;
-    }
-    .laptop_logo{
-        height: 100px;
-        margin:30px 0 0 30px;
-			align-items: flex-start;
-	
-    }
-	.logo-container{
-		 display:flex;
-	align-items: space-between;
+.forfatter {
+	text-align: right;
+}
+
+p {
+	font-family: raleway, sans-serif;
+}
+
+.om-tekst img {
+	width: 100%;
+	margin-top: 20px
+}
+
+.om-tekst img:last-child {
+	margin-bottom: 15px;
+}
+
+.kontakt-info {
+	flex: 85px 0 0;
+}
+
+#facebook {
+	background-color: #2467B6;
+}
+
+#instagram {
+	background-color: #FC2D78;
+}
+
+#messenger {
+	background-color: #0085FF;
+}
+
+#regnr {
+	text-align: center;
+}
+
+.phone_link {
+	color: white;
+	border-bottom: solid 1px;
+}
+
+@media only screen and (min-width: 1200px) {
+
+	/* Header */
+	.bigphoto {
+		background-image: url(../images/lind-min-1200pxS-8710-klip-.jpg);
 	}
-    
-    /* Main */
-    .forsideindhold{
-        display: flex;
-        justify-content: space-around;
-    }
-    .tekstindhold{
-        width:30%;
-        
-    }
-    .anmeldelser{
-        width:25%;
-       
-    }
-    .forfatter{
-        text-align:right;
-    }
-    .accordion-container{
-        display:flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin-top:30px;
-  
-    }
-    .accordion-full{
-        width:25%;
-    }
-    /* Forside */
 
-  
-    /* Om firmaet */
- 
-    .om-tekst{
-        width: 30%;
+	#menu-toggle {
+		display: flex;
+		justify-content: flex-end;
+	}
 
-    }
-    .om-tekst h1{
-        font-size: 2em;
-    }
-    .profile{
-        width: 25%;
-        margin-bottom: 20px;
-    }
-    .profile h1{
-        font-size: 2em;
-    }
-    
-    /* Footer */
-    footer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-   
-    }
-    .socialmedia_container{
-        display: flex;
-        flex-direction: column;
-        width:auto;
+	.menuentry {
+		display: inline;
+		border: none;
+	}
 
-    }
-    .socialmedia{
-        width: 30px;
-    }
-    p{
-        font-family: raleway, sans-serif;
+	.menu {
+		margin-top: 50px;
+	}
 
-    }
+	.menuentry a {
+		margin: 30px;
+		padding-top: 30px;
+		font-size: 3.5em;
+	}
+
+	.last-menuentry {
+		margin-right: 30px;
+	}
+
+	.burger-container {
+		display: none;
+	}
+
+	.navbar {
+		display: none;
+	}
+
+	.laptop-menu {
+		display: inline;
+	}
+
+	.laptop_logo {
+		height: 100px;
+		margin: 30px 0 0 30px;
+		align-items: flex-start;
+
+	}
+
+	.logo-container {
+		display: flex;
+		align-items: space-between;
+	}
+
+	/* Main */
+	.forsideindhold {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.tekstindhold {
+		width: 30%;
+
+	}
+
+	.anmeldelser {
+		width: 25%;
+
+	}
+
+	.forfatter {
+		text-align: right;
+	}
+
+	.accordion-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		margin-top: 30px;
+
+	}
+
+	.accordion-full {
+		width: 25%;
+	}
+
+	/* Forside */
+
+
+	/* Om firmaet */
+
+	.om-tekst {
+		width: 30%;
+
+	}
+
+	.om-tekst h1 {
+		font-size: 2em;
+	}
+
+	.profile {
+		width: 25%;
+		margin-bottom: 20px;
+	}
+
+	.profile h1 {
+		font-size: 2em;
+	}
+
+	/* Footer */
+	footer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	.socialmedia_container {
+		display: flex;
+		flex-direction: row;
+		width: auto;
+
+	}
+
+	.socialmedia {
+		width: 20px;
+	}
+
+	p {
+		font-family: raleway, sans-serif;
+		
+
+	}
 }
