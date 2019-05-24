@@ -273,19 +273,23 @@ p {
 	}
 
 	.laptop-menu {
-		display: inline;
+		display: flex;
+		flex: auto;
 	}
 
 	.laptop_logo {
-		height: 100px;
-		margin: 30px 0 0 30px;
-		align-items: flex-start;
-
+		height: 140px;
+		margin: 25px 0 0 25px;
+		}
+	.element-style{
+		margin-left: auto;
 	}
-
 	.logo-container {
 		display: flex;
 		align-items: space-between;
+	}
+	
+		
 	}
 
 	/* Main */
@@ -308,13 +312,9 @@ p {
 		text-align: right;
 	}
 
-	.accordion-container {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		margin-top: 30px;
 
-	}
+
+
 
 	.accordion-full {
 		width: 25%;
@@ -364,7 +364,7 @@ p {
 
 	p {
 		font-family: raleway, sans-serif;
-		
+
 
 	}
 }
